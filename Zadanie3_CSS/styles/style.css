@@ -1,0 +1,51 @@
+.figure {
+    width: 100px;
+    height: 100px;
+    margin: 30px;
+    border: 3px solid black;
+    display: inline-block;
+}
+
+.figure:first-child {
+    display:block;
+    background-color: blue;
+}
+
+.figure:nth-of-type(even) {
+    border-style: dashed;
+    border-color: rgb(244, 179, 66);
+}
+
+.figure:last-of-type {
+    background-color: #41d3f4;
+}
+
+.figure:nth-of-type(3) {
+    background-color: #f44195;
+}
+
+.figure:nth-of-type(4) {
+    background-color: green;
+}
+
+p:nth-of-type(odd) {
+    padding-left: 20px;
+}
+
+p:nth-of-type(3) {
+    margin-left: 20px;
+    padding: 30px 0 10px 10px;
+    color: white;
+    border: 3px solid black;
+    background-color: black
+}
+
+p:last-of-type {
+    border: 3px solid red;
+    background-color: red;
+}
+
+
+.circle {
+    border-radius: 50px;
+}
