@@ -1,1 +1,0 @@
-to moje pierwsze repo
