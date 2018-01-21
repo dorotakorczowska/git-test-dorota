@@ -1,0 +1,76 @@
+body {
+    margin: 10px 50px;
+}
+
+nav li {
+    display: inline-block;
+    font-size: 25px;
+    padding: 5px 10px;
+}
+
+nav li a {
+    color: white;
+}
+
+nav ul {
+    padding-left: 0px;
+}
+
+header {
+    background-color: black;
+    padding: 10px 10px;
+}
+
+.details img,
+.details div {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.details div {
+    padding-left: 20px;
+}
+
+.moreinfo img {
+    display: inline-block; 
+    margin-left: -35px; 
+    width: 100px;
+}
+
+.moreinfo div {
+    display: inline-block;
+    vertical-align: top; 
+    width: calc(100% - 100px);
+    padding-left: 20px;
+    text-align: justify;
+}
+
+.moreinfo p {
+    padding-left: 20px;
+}
+
+.moreinfo li {
+    list-style-type: none;
+}
+.aktorName {
+    margin-top: 0;
+    font-family: Verdana;
+}
+
+.details h1{
+    font-size: 2em;
+    font-family: Courier New, Courier, monospace;
+}
+
+.moreinfo h2 {
+    color: grey;
+    font-family: Tahoma;
+}
+
+.details {
+    padding-top: 20px;
+}
+
+html{
+    background-color: rgb(208, 220, 239);
+}
